@@ -1,13 +1,17 @@
 # Password_generator.io
 
 ==================
+
 OVERVIEW
+
 ==================
 
 A little password generator made using Javascript by Ty "Relten" Diezhandino
 
 ===========================
+
 FEATURES
+
 ===========================
 
 • A handy password generator created with javascript using random chaaracters to fill the requested criteria.
