@@ -15,7 +15,7 @@ body,
 /* Font and background color */
 
 body {
-  font-family: sans-serif;
+  font-family: 'PT Serif', serif;
   background-color: #464f5a;
 }
 
@@ -29,9 +29,15 @@ body {
 
 header {
   text-align: center;
+  padding: 9px;
+  padding-top: 0px;
+  color: hsl(0, 0%, 100%);
+}
+h3 {
+  text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(4, 23%, 86%);
+  color: hsl(0, 0%, 78%);
 }
 
 /* Password generator card */
