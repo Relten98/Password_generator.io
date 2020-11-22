@@ -134,7 +134,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-#properlength {
+#passlength {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
