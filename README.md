@@ -16,14 +16,10 @@ FEATURES
 
 • A handy password generator created with javascript using random chaaracters to fill the requested criteria.
 
-• A number only input for the user to set the length of the generated password
 
-• 
 
-•
+[Screenshot] https://github.com/Relten98/Password_generator.io/blob/main/generator.png
 
-•
+[Deployed] https://relten98.github.io/Password_generator.io/.
 
-[Screenshot] (lorem)
-
-[Deployed] (lorem)
+[REPO] https://github.com/Relten98/Password_generator.io
