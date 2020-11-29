@@ -14,7 +14,7 @@ FEATURES
 
 ===========================
 
-• A handy password generator created with javascript using random chaaracters to fill the requested criteria.
+• A handy password generator created with javascript using random characters to fill the requested criteria.
 
 
 
