@@ -2,12 +2,12 @@ var generateBtn = document.querySelector("#generate");
 let passLength = document.getElementById("passLength").value;
 var valid = false
 let x = 0
-//// Look ma, imma codin' like a champ
 
+//// Look ma, imma codin' like a champ
 
 function generatePassword() {
   var length = x;
-  /// WHY ISN'T THIS WORKING?!?!?!?!
+  /// HAHAHAHA TAKE THAT, BROKEN CODE!!!
   charlist = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*())_+=-';:/?.>,<~`,"
 
   retVal = "";
@@ -49,7 +49,7 @@ function validator() {
     return;
   }
 }
-// Write password to the #password input
+// Write password to the #password input, will not write if password is invalid.
 function writePassword() {
   if (valid == true) {
     var password = generatePassword();
