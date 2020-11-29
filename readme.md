@@ -18,8 +18,8 @@ FEATURES
 
 
 
-[Screenshot] https://github.com/Relten98/Password_generator.io/blob/main/generator.png
+[Screenshot] (https://github.com/Relten98/Password_generator.io/blob/main/generator.png)
 
-[Deployed] https://relten98.github.io/Password_generator.io/.
+[Deployed] (https://relten98.github.io/Password_generator.io/.)
 
-[REPO] https://github.com/Relten98/Password_generator.io
+[REPO](https://github.com/Relten98/Password_generator.io)
