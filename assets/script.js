@@ -1,16 +1,36 @@
 var generateBtn = document.querySelector("#generate");
 let passLength = document.getElementById("passLength").value;
 
-let numberSwitch = document.getElementById("numberSwitch");
-let symbolSwitch = document.getElementById("symbolSwitch");
 var valid = false
 
 let x = 0
 
 var useNumbers = false
-var useCharacters = false
+var useSymbols = false
 
 //// Look ma, imma codin' like a champ
+function ToggleN() {
+  let numberSwitch = document.getElementById("numberSwitch").checked;
+  if (numberSwitch) {
+    var useNumbers = true
+    console.log("Input is checked");
+  } else {
+    var useNumbers = false
+    console.log("Input is NOT checked");
+  }
+};
+
+function ToggleS() {
+  let symbolSwitch = document.getElementById("symbolSwitch").checked;
+  if (symbolSwitch) {
+    var useSymbols = true
+    console.log("Input is checked");
+  } else {
+    var useSymbols = false
+    console.log("Input is NOT checked");
+  }
+};
+
 
 
 
@@ -18,12 +38,16 @@ function generatePassword() {
   var length = x;
   /// HAHAHAHA TAKE THAT, BROKEN CODE!!!
   charlist = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZc"
-  if (useCharacters = true) {
-    charlist + "!@#$%^&*())_+=-';:/?.>,<~`,"
+  if (useSymbols = true) {
+    sym = "!@#$%^&*())_+=-';:/?.>,<~`,"
+    charlist + sym
   }
   if (useNumbers = true) {
-    charlist + "0123456789"
-}
+    var num = "0123456789";
+    charlist + num;
+  }
+
+  console.log('Charlist is' + charlist)
 
   retVal = "";
 
@@ -66,6 +90,9 @@ function validator() {
 }
 // Write password to the #password input, will not write if password is invalid.
 function writePassword() {
+  ToggleN();
+  ToggleS();
+
   if (valid == true) {
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
@@ -78,20 +105,3 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 document.getElementsByName("passLength")[0].addEventListener("change", validator);
-symbolSwitch.addEventListener('change', function () {
-  if (checkbox.checked) {
-  var useCharacters = true
-    console.log('Numbers');
-  } else {
-    var useCharacters = true
-    console.log('No Numbers');
-  };
-
-numberSwitch.addEventListener('change', function () {
-if (checkbox.checked) {
-var useNumbers = true
-  console.log('Numbers');
-} else {
-  var useNumbers = true
-  console.log('No Numbers');
-}
