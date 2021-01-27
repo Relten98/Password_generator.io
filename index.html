@@ -36,7 +36,16 @@
         <!-- Number input for js (CANNOT SEEM TO GET IT TO WORK AT THE MOMENT, SO I GUESS I AM GOING TO HAVE TO COMMENT IT OUT FOR NOW.)-->
 
         <input type="number" value="" id="passLength" name="passLength" placeholder="Amount of Characters to use (8 - 128)" min="8" max=128>
-        
+        <p>Symbols (@#!$%)</p>
+        <label class="switch">
+          <input  id=symbolSwitch type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <p>Numbers (123456789)</p>
+        <label class="switch">
+          <input id=numberSwitch type="checkbox">
+          <span class="slider"></span>
+        </label>
         <!-- Password box -->
         <textarea readonly id="password" placeholder="Your Secure Password"></textarea>
       </div>
