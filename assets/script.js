@@ -31,12 +31,14 @@ function ToggleS() {
   }
 };
 
-
-
+/// Now for the magic.
+/// This determines the variables for HOW the password is generated.
 
 function generatePassword() {
   var length = x;
   /// HAHAHAHA TAKE THAT, BROKEN CODE!!!
+
+  /// Below determines password based on the user input.
   if (useSymbols = true) {
   var charlist = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*())_+=-';:/?.>,<~`,"
 
